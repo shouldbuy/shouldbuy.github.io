@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<!-- Container
+  ================================================== -->
+  <main class="container">
+    <!-- Home Intro
+      ================================================== -->
+    <div class="rounded mb-5 hero">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-6">
+          
+          <span class="main-banner-title">
+            <h2 class="font-weight-bold mb-4 serif-font">A cheatsheet for all those things you'll need</h2>
+          </span>
+          <span class="main-banner-text">
+            <p class="lead mb-4">My name is Ben Nguyen, living in Fremont, California. I'm a software engineer and my hobbies are around high tech equipments. My purchases have good values (in my opinion). So why don't I share my opinion?</p>
+          </span>
+  
+          <a href="#"
+            class="btn btn-dark text-white px-5 btn-lg">About me</a>
+        </div>
+        <div class="col-md-6 text-right pl-0 pl-lg-4">
+          <img src="/assets/images/intro.svg" class="intro", style="height: 500;" />
+        </div>
+      </div>
+    </div>
+    <!-- Featured
+      ================================================== -->
+    <section class="row">
+    </section>
+  
+    <!-- Posts List with Sidebar (except featured)
+    ================================================== -->
+    <section class="row">
+      <div class="col-sm-12">
+        <div class="row" id="items_container">
+          {%- for post in site.posts -%}
+            <div class="col-md-4 mb-5 item" data-parameterize="{{ post.parameterize }}" data-tags="">
+              <!-- begin post -->
+              <div class="card">
+                <a target="_blank" href="{{ post.af_url }}">
+                  <img class="rounded mb-4" border="0" src="{{ post.image_url }}" />
+                </a>
+                <strong>${{ post.price }}</strong>
+                <div class="card-block">
+                  <h2 class="card-title h4 serif-font">
+                  <a href="{{ post.url | relative_url }}">{{ post.name }}</a>
+                  </h2>
+                  <p class="card-text text-muted">{{ post.excerpt }}</p>
+                  <div class="metafooter">
+                    <div class="wrapfooter small d-flex align-items-center">
+                      <span class="author-meta">
+                        <a target="_blank" href="{{ post.af_url }}" class="btn btn-warning">Buy</a>
+                      </span>
+                      <div class="clearfix">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u={{ post.af_short_url }}" target="_blank">
+                          <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <i class="fab fa-instagram fa-lg"></i>
+                        <i class="fab fa-pinterest fa-lg"></i>
+                        <i class="fas fa-at fa-lg"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <span class="card-text text-muted">
+                    {%- for tag in post.tags -%}
+                      <a href="#">#{{ tag }}</a> &nbsp;
+                    {%- endfor -%}
+                    <!-- {{ post.tags | join: ', ' }} -->
+                    <!-- link_to "##{t.name}", filter_by_tag_path(t.id, t.name) -->
+                  </span>
+                </div>
+              </div>
+              <!-- end post -->
+            </div>
+
+          {%- endfor -%}
+        </div>
+        <!-- Pagination -->
+        <div class="bottompagination">
+          <span class="navigation" role="navigation">
+            <nav class="pagination" role="pagination">
+              <span class="page-number d-none"> &nbsp; &nbsp; Page 1 of 1 &nbsp; &nbsp; </span>
+            </nav>
+          </span>
+        </div>
+      </div>
+    </section>
+  
+  </main>
+  

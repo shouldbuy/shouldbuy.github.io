@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Anker Nano II 30W Fast USB C Quick Charger Adapter"
+date:   2022-01-17 13:21:30 -0800
+categories: 
+name: "Anker Nano II 30W Fast USB C Quick Charger Adapter"
+parameterize: "anker-nano-ii-30w-fast-usb-c-quick-charger-adapter"
+image_url: "https://m.media-amazon.com/images/I/31McSrMGIzL._SL250_.jpg"
+excerpt: "I love Anker products and this one is no different. This is a new updated version of an older model. This was has a much smaller profile. This is my travel charger and I never go anywhere without it, this is a rapid charger I use for my iPhone 13 pro max."
+description: ""
+af_image_url: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B091DS2M8X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=shouldbuy0b-20"
+af_url: "https://www.amazon.com/gp/product/B091DS2M8X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B091DS2M8X&linkCode=as2&tag=shouldbuy0b-20&linkId=e0dd785647cd6da7e224318976edfbe4"
+af_short_url: "https://amzn.to/30jMpwp"
+price: "33.99"
+tags: Apple iPhone iPad Samsung Accessories
+
+---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
